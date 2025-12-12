@@ -15,8 +15,9 @@ import {
 
 // 后端地址
 // 本地开发用 localhost，上线部署时请确保 Vercel 环境变量 VITE_API_URL 已设置
-const API_BASE_URL = "http://localhost:8000"; 
-// const API_BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:8000";
+// 注释掉写死的 localhost，启用 import.meta.env
+// const API_BASE_URL = "http://localhost:8000"; 
+const API_BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:8000";
 
 const LANGUAGES = [
   { code: 'zh-CN', label: '简体中文' }, 
@@ -628,5 +629,6 @@ const Footer = ({ t }) => {
     </footer>
   );
 };
+
 
 export default App;
