@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "九华黄精切片 (黑金级)",
+    "price": "¥298",
+    "image": "https://res.cloudinary.com/你的云名/image/upload/v1/tea-speaks/products/product-slice.jpg",
+    "desc": "对应图8：道地原材，九蒸九晒，油润透亮，滋补圣品。",
+    "tag": "店长推荐"
+  },
+  {
+    "id": 2,
+    "name": "手工黄精芝麻丸",
+    "price": "¥128",
+    "image": "https://res.cloudinary.com/你的云名/image/upload/v1/tea-speaks/products/product-pill.jpg",
+    "desc": "对应图10：以黑养黑，传统古法，细腻无渣，开袋即食。",
+    "tag": "热销"
+  },
+  {
+    "id": 3,
+    "name": "特级黄精果 (即食)",
+    "price": "¥88",
+    "image": "https://res.cloudinary.com/你的云名/image/upload/v1/tea-speaks/products/product-snack.jpg",
+    "desc": "对应图7：软糯香甜，保留原味，健康零嘴，老少皆宜。",
+    "tag": "新品"
+  },
+  {
+    "id": 4,
+    "name": "九华养生黄精茶",
+    "price": "¥68",
+    "image": "https://res.cloudinary.com/你的云名/image/upload/v1/tea-speaks/products/product-tea.jpg",
+    "desc": "对应图6：琥珀汤色，滋补元气，每日一杯，回甘悠长。",
+    "tag": "茶饮"
+  }
+]
