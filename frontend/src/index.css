@@ -1,8 +1,21 @@
+/* 1. 引入 Noto Serif SC 字体 (关键：必须引入才能生效) */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;500;700&display=swap');
+
+/* 2. Tailwind 核心指令 */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* 3. 全局样式调整 */
 body {
   margin: 0;
-  font-family: "Noto Serif SC", serif; /* 加上衬线体更高级 */
+  /* 优先使用 Noto Serif SC，如果没有加载成功，则尝试系统自带的宋体，最后回退到通用衬线体 */
+  font-family: "Noto Serif SC", "Songti SC", "SimSun", serif;
+  
+  /* 让字体在 MacOS/iOS 上显示更清晰 */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  /* 设置背景色防止加载闪烁 */
+  background-color: #fcfcfc;
 }
